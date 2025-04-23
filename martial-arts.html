@@ -1,0 +1,75 @@
+<!-- Developer: Preet Shah, IS117-002, Spring 2025 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Martial Arts | FitnessHub</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link href="styles/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md bg-light navbar-light">
+      <a class="navbar-brand" href="main.html">FitnessHub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <li><a class="dropdown-item" href="personal-training.html">Personal Training</a></li>
+              <li><a class="dropdown-item" href="zumba.html">Zumba</a></li>
+              <li><a class="dropdown-item active" href="martial-arts.html">Martial Arts</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Martial Arts Section -->
+    <section class="container my-5">
+      <h2 class="text-center mb-4">Martial Arts Training</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="/images/martial.jpeg" alt="Martial Arts Training" class="img-fluid rounded">
+        </div>
+        <div class="col-md-6">
+          <p>
+            Our martial arts programs are designed to build more than just physical strength. Through structured training in karate, kickboxing, and self-defense, students develop discipline, confidence, and mental focus.
+          </p>
+          <p>
+            Whether you're a beginner or an experienced martial artist, our skilled instructors will guide you through proper techniques, sparring, and forms with safety and respect at the core of every session.
+          </p>
+          <a href="contact.html" class="btn btn-primary mt-3">Start Training</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-light text-center p-3">
+      <span class="text-muted">Preet Shah &copy; 2024 FitnessHub | All rights reserved.</span>
+    </footer>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

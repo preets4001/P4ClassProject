@@ -1,0 +1,93 @@
+<!-- Developer: Preet Shah, IS117-002, Spring 2025 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Blog | FitnessHub</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link hre`f="styles/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md bg-light navbar-light">
+      <a class="navbar-brand" href="main.html">FitnessHub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <li><a class="dropdown-item" href="personal-training.html">Personal Training</a></li>
+              <li><a class="dropdown-item" href="zumba.html">Zumba</a></li>
+              <li><a class="dropdown-item" href="martial-arts.html">Martial Arts</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link active" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Blog Section -->
+    <section class="container my-5">
+      <h2 class="text-center mb-4">Fitness Tips & Resources</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="images/blog1.jpg" class="card-img-top" alt="Healthy lifestyle">
+            <div class="card-body">
+              <h5 class="card-title">5 Healthy Habits to Boost Your Energy</h5>
+              <p class="card-text">Feeling tired? Here are 5 small habits you can build into your daily routine to improve focus and energy.</p>
+              <a href="#" class="btn btn-outline-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-4 mt-md-0">
+          <div class="card h-100">
+            <img src="/images/blog2.jpeg" class="card-img-top" alt="Zumba class">
+            <div class="card-body">
+              <h5 class="card-title">Why Zumba Is More Than Just Dance</h5>
+              <p class="card-text">Zumba not only burns calories but also builds confidence and reduces stress. Learn why it's so effective.</p>
+              <a href="#" class="btn btn-outline-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-4 mt-md-0">
+          <div class="card h-100">
+            <img src="images/blog3.jpg" class="card-img-top" alt="Strength training">
+            <div class="card-body">
+              <h5 class="card-title">Strength Training for Beginners</h5>
+              <p class="card-text">New to strength training? Here's a beginner-friendly guide to help you get started safely and effectively.</p>
+              <a href="#" class="btn btn-outline-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-light text-center p-3">
+      <span class="text-muted"> Preet Shah &copy; 2024 FitnessHub | All rights reserved.</span>
+    </footer>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

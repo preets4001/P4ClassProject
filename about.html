@@ -1,0 +1,73 @@
+<!-- Developer: Preet Shah, IS117-002, Spring 2025 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>About Us | FitnessHub</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Custom Styles -->
+  <link href="styles/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-md bg-light navbar-light">
+      <a class="navbar-brand" href="main.html">FitnessHub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <li><a class="dropdown-item" href="personal-training.html">Personal Training</a></li>
+              <li><a class="dropdown-item" href="zumba.html">Zumba</a></li>
+              <li><a class="dropdown-item" href="martial-arts.html">Martial Arts</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- About Section -->
+    <section class="container my-5">
+      <h2 class="text-center mb-4">About FitnessHub</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p>
+            At FitnessHub, our mission is to empower individuals of all ages and fitness levels to achieve their personal goals through a variety of engaging programs. Whether you're stepping into a gym for the first time or you're a seasoned athlete, our team is committed to helping you thrive.
+          </p>
+          <p>
+            We offer specialized programs in personal training, Zumba, martial arts, karate, kickboxing, and calisthenics. Our expert trainers create a welcoming and motivational environment that helps clients push their limits safely and confidently.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="\images\about-us.jpeg" class="img-fluid rounded" alt="Fitness community at FitnessHub">
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-light text-center p-3">
+      <span class="text-muted">Preet Shah &copy; 2024 FitnessHub | All rights reserved.</span>
+    </footer>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
